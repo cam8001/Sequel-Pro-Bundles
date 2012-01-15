@@ -1,1 +1,9 @@
-To install these bundles, place them in ~/Library/Application Support/Sequel Pro/Bundles.
+# Installation
+
+To install these bundles, place them in 
+
+    ~/Library/Application Support/Sequel Pro/Bundles
+
+## Format Unix Timestamp
+
+Converts Unix timestamps in integer format into readable date/times. Highlight a timestamp in the table data viewer, then hit CMD+OPT+SHIFT+T.
