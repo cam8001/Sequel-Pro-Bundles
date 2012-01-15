@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Cameron Tod</string>
+	<key>category</key>
+	<string>Format</string>
+	<key>command</key>
+	<string>#!/bin/bash
+read timestamp
+date -r $timestamp</string>
+	<key>contact</key>
+	<string>pnzrebagbq.pbz</string>
+	<key>description</key>
+	<string>Shows Unix timestamp as readable date/time. Select a field, and press SHIFT+OPT+CMD+T.</string>
+	<key>input</key>
+	<string>entirecontent</string>
+	<key>internalKeyEquivalent</key>
+	<dict>
+		<key>characters</key>
+		<string>T</string>
+		<key>keyCode</key>
+		<integer>17</integer>
+		<key>modifierFlags</key>
+		<integer>1703936</integer>
+	</dict>
+	<key>keyEquivalent</key>
+	<string>~$@T</string>
+	<key>name</key>
+	<string>Format Unix Timestamp</string>
+	<key>output</key>
+	<string>showashtml</string>
+	<key>scope</key>
+	<string>inputfield</string>
+	<key>uuid</key>
+	<string>CD711F69-2887-4CC4-BADB-8A3FEDF9F83C</string>
+</dict>
+</plist>
